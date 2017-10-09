@@ -39,7 +39,7 @@ h1{
 .pic{
   padding: 10px 10px 10px 10px;
   margin: 50px auto;
-  max-width: 80%;
+  width: 80%;
   height: auto; /*responsive image*/
   text-align: center;
   background-color: #A39889;
@@ -47,6 +47,7 @@ h1{
   border: 2px solid brown;
   border-color: #196562;
 }
+
 
 .ToC{
   text-align: left;
@@ -56,5 +57,67 @@ h1{
   height: auto;
   background-color: #CDF1F5;
   border-radius: 10px 10px;
+  border: 2px solid gray;
+}
+
+nav{
+  display: block;
+  list-style-type: decimal;
+}
+
+li{
+  line-height: 200%
+}
+
+.AboutMe{
+  text-align: left;
+  padding: 10px 10px 10px 10px;
+  margin: 10px auto;
+  max-width: 80%;
+  height: auto;
+  background-color: #F0EBF7;
+  border-radius: 10px 10px;
+  border: 2px solid gray;
+}
+
+h2{
+color: #08285D;
+font-style: italic;
+text-shadow: 2px 2px #6D90C9;
+padding: 10px 40px 10px 20px;
+}
+
+p{
+  margin: 15px 0;
+  line-height: 2.0;
+  margin: 10px auto;
+  padding: 10px 20px 10px 20px;
+  justify-content: space-around;
+}
+
+/*first line indentation*/
+.MyURL{
+  color: #1751B1;
+  font-style: italic;
+  text-shadow: 1px 1px #7BA6EC;
+}
+
+
+.flex{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.nexttopic{
+  padding: 10px 10px 10px 10px;
+  margin: 50px auto;
+  width: 80%;
+  line-height: 2.0;
+  justify-content: space-around;
+  height: auto;
+  text-align: left;
+  background-color: #F1E1F3;
+  border-radius: 20px;
   border: 2px solid gray;
 }
